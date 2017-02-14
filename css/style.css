@@ -56,6 +56,8 @@ li a{
     text-decoration: none;
     color: inherit;
     font-family: Questrial;
+    width: 100%;
+    display: inline-block;
 }
 
 li:hover {
