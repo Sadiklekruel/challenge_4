@@ -24,7 +24,7 @@ Sous-titre :
 - h2
 - font : 'Questrial'
 - taille : 45px
-- gras
+- grasuch
 
 texte général :
 - font : 'Questrial'
