@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 
 header {
     background-color: #2056ac;
+    padding: 1.5em;
 }
 
 header section {
@@ -17,10 +19,53 @@ header section {
     align-items: center;
 }
 
+#engrenage {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 0.2em;
+    color: #fff;
+    font-family: Questrial;
+    font-weight: bold;
+}
+
 ul {
     margin-top: 1em;
     text-align: center;
     list-style: none;
+}
+
+li {
+    color: #fff;
+}
+
+li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+    font-family: Questrial;
+}
+
+li:hover {
+    background-color: #fff;
+    color: #2056ac;
+}
+
+.selected {
+    background-color: #fff;
+    color: #2056ac;
 }
 
 main {
@@ -34,9 +79,9 @@ main section {
     flex-direction: column;
 }
 
-
 main img {
     width: 90%;
+    margin-top: 1em;
 }
 
 main section {
@@ -45,20 +90,24 @@ main section {
 
 main h2, h3, h4{
     margin: 1em 0;
+    font-family: Questrial;
+    font-weight: bold;
 }
 
 main p {
     margin-bottom: 0.5em;
 }
 
-main section p {
-width: 90%;
+main button {
+    color: #fff;
+    background-color: #64ABD1;
+    padding: 1em 1.5em;
+    border: none;
 }
-
 #secondeSection {
     border-top: 0.1em solid;
     border-bottom: 0.1em solid;
-
+    padding-bottom: 1em;
 }
 
 main section article {
@@ -70,21 +119,30 @@ main section article {
 #contact {
     background-color: #e3f0f7;
     margin: 1em 0 0 0;
+    color: #5b6063;
 }
-
+#contact i {
+    padding: 0.5em;
+    font-size: 2.5em;
+}
 footer {
     text-align: center;
     background-color: #2056ac;
 }
-
+em {
+    color: #fff;
+    font-style: normal;
+}
 footer p {
-    padding: 0.9em;
+    padding: 2em 0.9em;
+    color: #d9d9d9;
 }
 
 footer i {
     display: inline-block;
     padding: 1em;
-    border: solid black 0.1em;
+    background-color: #64abd1;
+    color: #fff;
 }
 
 #fb {
