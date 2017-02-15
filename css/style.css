@@ -72,6 +72,7 @@ li:hover {
 
 main {
     text-align: center;
+    font-size: 16px;
 }
 
 main section {
@@ -98,6 +99,12 @@ main h2, h3, h4{
 
 main p {
     margin-bottom: 0.5em;
+}
+
+main em {
+    color: grey;
+    font-weight: bold;
+    font-style: normal;
 }
 
 main button {
@@ -131,10 +138,12 @@ footer {
     text-align: center;
     background-color: #2056ac;
 }
-em {
+
+footer em {
     color: #fff;
     font-style: normal;
 }
+
 footer p {
     padding: 2em 0.9em;
     color: #d9d9d9;
@@ -153,4 +162,54 @@ footer i {
 
 #tumblr {
     padding: 1em 1.15em;
+}
+
+@media(min-width:899px) {
+
+
+
+    header {
+        padding: 2em 0 0 0;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 56px;
+        margin-bottom: 1em;
+    }
+
+    #engrenage {
+        margin-top: 1em;
+        font-size: 50px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        display: inline-block;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 1em;
+    }
+
+    li:last-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    a {
+        width: none;
+    }
+
+    main img {
+        margin-top: 4em;
+    }
+
+    main h2 {
+        font-size: 45px;
+    }
+
 }
