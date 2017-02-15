@@ -135,6 +135,7 @@ main section article {
 footer {
     text-align: center;
     background-color: #2056ac;
+    padding: 3em;
 }
 
 footer em {
