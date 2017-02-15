@@ -80,7 +80,8 @@ main section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 1 auto;
+    padding: 0 1em;
 }
 
 main img {
@@ -95,7 +96,7 @@ main h2, h3, h4{
 }
 
 main p {
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 
 main em {
@@ -122,8 +123,11 @@ main section article {
     align-items: center;
 }
 
-#contact {
+#background {
     background-color: #e3f0f7;
+}
+
+#contact {
     margin: 1em 0 0 0;
     color: #5b6063;
 }
@@ -136,6 +140,7 @@ footer {
     text-align: center;
     background-color: #2056ac;
     padding: 3em;
+    border-top: 1em solid #3b4eb2;
 }
 
 footer em {
@@ -153,6 +158,10 @@ footer i {
     padding: 1em;
     background-color: #64abd1;
     color: #fff;
+}
+
+button {
+    margin-bottom: 2em;
 }
 
 #fb {
@@ -201,17 +210,23 @@ footer i {
         width: none;
     }
 
+    main {
+        color: rgb(69, 69, 69);
+    }
+
     main img {
         margin-top: 4em;
+    }
+
+
+    main section {
+        margin: 0 auto;
     }
 
     main h2 {
         font-size: 45px;
     }
 
-    main {
-        color: rgb(69, 69, 69);
-    }
 
     #premiersection {
         margin-bottom: 70px;
@@ -267,5 +282,11 @@ footer i {
     main section:not(#contact) {
         width: 1200px;
     }
+
+    #contact {
+        width: 1200px;
+        margin: auto;
+    }
+
 
 }
