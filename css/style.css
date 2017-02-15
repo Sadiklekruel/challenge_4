@@ -92,7 +92,7 @@ main section {
 }
 
 main h2, h3, h4{
-    margin: 1em 0;
+    margin: 2em 0 1em 0;
     font-family: Questrial;
     font-weight: bold;
 }
@@ -102,7 +102,7 @@ main p {
 }
 
 main em {
-    color: grey;
+    color: rgb(69, 69, 69);
     font-weight: bold;
     font-style: normal;
 }
@@ -114,8 +114,8 @@ main button {
     border: none;
 }
 #secondeSection {
-    border-top: 0.1em solid;
-    border-bottom: 0.1em solid;
+    border-top: 0.1em solid rgba(133, 133, 133, 0.89);
+    border-bottom: 0.1em solid rgb(69, 69, 69);
     padding-bottom: 1em;
 }
 
@@ -212,4 +212,38 @@ footer i {
         font-size: 45px;
     }
 
-}
+    main {
+        color: rgb(69, 69, 69);
+    }
+
+    #premiersection {
+        margin-bottom: 70px;
+    }
+
+    h3 {
+    margin-top: 70px;
+    }
+
+    section:not(#premiersection){
+        display: flex;
+        flex-direction: row;
+    }
+
+    #secondeSection {
+        justify-content: space-around;
+    }
+    #secondeSection article {
+        width: 28%;
+    }
+    main section{
+    display: flex;
+    }
+
+    button {
+     margin: 50px 0;
+
+    }
+
+    h4 {
+    margin-top: 50px;
+    }
